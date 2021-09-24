@@ -1,1 +1,1 @@
-web: gunicorn mystupidapp.wsgi --log-file -
+web: gunicorn mystupidapp.wsgi --preload
